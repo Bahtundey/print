@@ -1,0 +1,49 @@
+.one{
+    margin-left: 10%;
+}
+.two{
+   background-color: #ebe8d8;
+}
+.three{
+    font-size: 70px;
+    color: #2b3d49;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.four{
+    width: 500px;
+}
+.five{
+    background-color: #edf6fd;
+}
+.six{
+    background-color: #f7f6f4;
+}
+.seven{
+    background-color: #384962;
+}
+.mag{
+    margin-left: 5%;
+}
+.eight{
+    color: #ebe8d8;
+}
+.nine{
+    color: #384962;
+}
+
+
+
+@media (max-width:479px){
+.three{
+    font-size: 20px;
+}
+.four{
+    width: 200px;
+}
+}
+
+@media (min-width:480px) and (max-width:767px){
+    .four{
+        width: 300px;
+    }
+}
